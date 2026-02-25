@@ -24,7 +24,8 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "test:open": "playwright test --ui-host=0.0.0.0",
-    "test:run": "playwright test"
+    "test:run": "playwright test",
+    "bench": "vitest bench --run"
   },
   "dependencies": {
     "@arcjet/decorate": "1.1.0",
@@ -44,10 +45,12 @@
     "zod": "4.3.5"
   },
   "devDependencies": {
+    "@codspeed/vitest-plugin": "^5.2.0",
     "@playwright/test": "1.57.0",
     "@types/node": "22.19.7",
     "@types/react": "19.2.8",
     "@types/react-dom": "19.2.3",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "^4.0.18"
   }
 }

@@ -9,6 +9,8 @@
 [![Deploy with Vercel][vercel_button]][vercel_deploy]
 &nbsp; &nbsp;
 [![Deploy to Netlify][netlify_button]][netlify_deploy]
+&nbsp; &nbsp;
+[![CodSpeed](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/Ashishsonavane/example-nextjs-3298e?utm_source=badge)
 
 # Arcjet example app
 
